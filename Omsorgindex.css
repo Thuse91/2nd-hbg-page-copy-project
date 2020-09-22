@@ -1,0 +1,186 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+
+/*----- used colors ------*/
+/*--- #ec6701 orange buttons ---*/
+/*--- rgb(241, 241, 241) grey background ---*/
+/*--- white , most containers ---*/
+/*--- #ae0b05, standard red---*/
+/*--- #cb0050 pink/red background ---*/
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*------Header------*/
+
+.uppheader {
+    font-size: 90%;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 0 32px 0 32px;
+}
+
+.upphead {
+    display: flex;
+    margin: auto;
+    padding: 0 32px 0 32px;
+    max-width: 1423px;
+    width 100%;
+    position: relative;
+}
+
+
+
+.hbglogo {
+    margin-top: 22px;
+    margin-bottom: 23px;
+    width: 80px;
+    margin-left: 1.5%;
+}
+
+.hbglogo img {
+    width: 100%;
+    height: auto;
+}
+.h1head {
+    flex: 4;
+    margin-top: 44px;
+    font-weight: 550;
+    font-size: 175%;
+}
+
+.links-UH {
+    margin-top: 46px;
+    margin-right: 5.7%;
+    font-weight: 500;
+    font-size: 105%;
+    flex: 3.5;
+}
+.links-UH a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.uhl1 {
+    padding: 5px 11px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    margin-right: -5px;
+}
+.uhl2 {
+    padding: 5px 11px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    margin-right: -5px;
+}
+.uhl3 {
+    padding: 5px 11px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    margin-right: -5px;
+}
+
+.headsearch  {
+    border: 5px solid;
+    height: 30px;
+    top: 40px;
+    position: absolute;
+    margin-right: 32px;
+    right: 110px;
+    width: 240px;
+}
+
+/*---- sticky part "lower header" -----*/
+
+.lowerheader {
+    background-color:#ae0b05;
+    padding: 18px 32px 20px 32px;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+
+}
+.lowerheader a {
+    color: white;
+    text-decoration: none;
+    font-size: 112%;
+}
+
+.lowhead {
+    max-width: 1423px;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.lh-1 {
+    flex: 0.30;
+    padding-left: 71px;
+    
+}
+.lh-2 {
+    flex: 0.73;
+}
+.lh-3 {
+    flex: 0.86;
+}
+.lh-4 {
+    flex: 0.75;
+}
+.lh-5 {
+    flex: 0.65;
+}
+.lh-6 {
+    flex: 0.9;
+}
+
+.lh-7 {
+    flex: 0.9;
+}
+.wrap
+{ 
+display: flex;
+margin: auto;
+width: 100%;
+padding: 0 32px 0 32px;
+max-width: 1328px;
+text-align: left;
+}
+
+
+
+.sec1{
+    flex:1;
+    padding: 16px;
+}
+
+.sec2{
+    flex:2;
+    padding: 16px;
+}
+
+.sec3{
+    flex:1;
+    padding: 16px;
+}
