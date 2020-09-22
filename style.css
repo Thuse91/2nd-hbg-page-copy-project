@@ -46,7 +46,7 @@ a {
     margin: auto;
     padding: 0 32px 0 32px;
     max-width: 1423px;
-    width 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -171,6 +171,7 @@ width: 100%;
 padding: 0 32px 0 32px;
 max-width: 1328px;
 text-align: left;
+box-sizing: border-box;
 }
 
 
@@ -189,3 +190,91 @@ text-align: left;
     flex:1;
     padding: 16px;
 }
+/* section 3 redbox more or less exact match */
+
+.sec3-redbox {
+    background-color: #ae0b05;
+    color: white;
+    padding-bottom: 35px;
+    border-radius: 2px;
+    margin-top: 80px; /* temp */
+    margin-bottom: 32px; /* standard */
+
+}
+
+.sec3-redbox h4 {
+    font-size: 19px;
+    padding: 32px 32px 19px 32px;
+    margin: 0;
+}
+
+.sec3-redbox-contain-link {
+    padding: 0px 32px 0px 32px;
+}
+.sec3-redbox a {
+    text-decoration: underline;
+    color: white;
+}
+
+.sec3-redbox-link {
+    margin-left: 12px;
+}
+
+/* section 3 box w picture  more or less match */
+.sec3-colorboxWpic {
+    background-color: #cb0050;
+    border-radius: 2px;
+}
+
+.sec3-colorboxWpic h4 {
+    color: white;
+    font-size: 19px;
+    margin: 0;
+    padding: 32px 32px 0px 32px;
+}
+.sec3-colorboxWpic a {
+    text-decoration: underline;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sec3-colorboxWpic-contain-link {
+    padding: 16px 32px 32px 32px;
+}
+
+
+/* sec3-brighterred color box */
+
+.sec3-brightredbox {
+    background-color: #e3000f;
+    color: white;
+    padding-bottom: 35px;
+    border-radius: 2px;
+    margin-top: 80px; /* temp */
+    margin-bottom: 32px; /* standard */
+
+}
+
+.sec3-brightredbox h4 {
+    font-size: 19px;
+    padding: 32px 32px 19px 32px;
+    margin: 0;
+}
+
+.sec3-brightredbox-contain-link {
+    padding: 0px 32px 0px 32px;
+}
+
+.sec3-brightredbox a {
+    text-decoration: underline;
+    color: white;
+}
+
+.sec3-brightredbox-link {
+    margin-left: 12px;
+}
+
+
+/* current issue and to-do is to learn how to use font-awesome icons with ::before to propperly align
+icons easily. */
