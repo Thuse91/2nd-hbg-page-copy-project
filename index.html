@@ -2,6 +2,7 @@
 <head>
     <title>Helsingborg.se | Helsingborgs stad</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="app.js" defer></script>
     <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -20,8 +21,11 @@
             <a href="#" class="uhl2">Självservice</a>
             <a href="#" class="uhl3">Besökare</a>
         </div>
-        <div class="headsearch">
-            Searchbar
+        <div class="search">
+            <form id="form1"> 
+                <input type="text" id="search" name="search" value="Vad letar du efter?">
+                <button id="search-btn" type="submit" form="form1" value="Submit">Sök</button>
+            </form> 
         </div>
     </div>
 </div>
@@ -51,96 +55,88 @@
             </div>
         </div>
        
-        <div class="sec3">
+        <div class="sec3">Or kind rest bred with am shed then. In raptures building an bringing be. Elderly is detract tedious assured private so to visited. Do travelling companions contrasted it. Mistress strongly remember up to. Ham him compass you proceed calling detract. Better of always missed we person mr. September smallness northward situation few her certainty something.               
+        </div> 
+        </div>
+        <div id="contact" class="c-contact-banner">
+            <div class="contact-container">
+                <div class="contact-items contact-item-1">
+                        <h2>
+                            <span>Kontakta kommunen — En väg in</span>
+                        </h2>
+                    
+                        <p>
+                            <span>När du kontaktar oss är det kommunvägledarna på Helsingborg kontaktcenter som tar hand om dina frågor.</span>
+                        </p>
+                </div>
 
-            <!--- section 3 redbox more or less exact match -->
-            <div class="sec3-redbox">
-                <h4>Kontakt</h4>
-                <div class="sec3-redbox-contain-link">
-                    <div class="align-arrow">
-                        <span class="arrow"><i class="far fa-arrow-alt-circle-right"></i></span>
-                        <a href="#" class="link-text">Socialjour och mottagning</span></a>
-                    </div>
-                    </div>
+                <!-- Business hours -->
+                <div class="contact-items contact-item-2">
+
+
+                        <h3> Öppettider</h3>
+                        <div class="time-elements">Måndag-torsdag   07:00-19:00</div> 
+                        <div class="time-elements">Fredag   07:00-17:00</div>
+                        <div class="time-elements">Lördag   10:00-15:00</div>
+                        
+                        <div>
+                            <span>
+                                Avvikande öppettider kan förekomma i samband med röda dagar, samt dag innan röd dag.
+                            </span>
+                        </div>
+                </div>
+
             </div>
-            <div class="sec3-colorboxWpic">
-                <img src="https://helsingborg.se/wp-content/uploads/2016/03/seniorskola.jpg" alt="#" class="sec3-colorboxWpic-img">
-                <h4>Helsingborgs seniorskola</h4>
-                <div class="sec3-colorboxWpic-contain-link">
-                    <a href="#">Seniorskolan är för dig som är i åldern 60 plus. Här får du social gemenskap, meningsfull sysselsättning, fysisk aktivitet, kultur och goda matvanor.</a>
-            </div>
-            </div> 
-            <div class="sec3-brightredbox">
-                <h4>Bli volontär inom Helsingborgs stad</h4>
-                <div class="sec3-redbox-contain-link">
-                    <div class="align-arrow">
-                        <span class="arrow"><i class="far fa-arrow-alt-circle-right"></i></span>
-                        <a href="#" class="link-text">Välkommen till oss på Volontärcenter! Vi finns på Helsingborg kontaktcenter på Stortorget 17.</a>
+            <!--Chat,mail,ring start-->
+            <div class="contact-banner-item-container">
+                <div class="contact-banner-item">
+                    <div class="contact-banner-item-header">
+                        <img src="img/chat.JPG" alt="Chat Logo">
+                        <h3 class="contact-banner-item-title">Chatta</h3>
+                    </div>
+                    <p class="contact-banner-item-content">Få svar direkt – chatta med en kommunvägledare</p>
+                    <div class="contact-banner-link">
+                        <a class="contact-banner-link" href="page-not-found.html">Start Chatt ></a>
+                    </div>
+                </div>
+                <div class="contact-banner-item">
+                    <div class="contact-banner-item-header">
+                        <img src="img/mail.JPG" alt="Email Logo">
+                        <h3 class="contact-banner-item-title">Mejla</h3>
+                    </div>
+                    <p class="contact-banner-item-content">Få svar inom 24 timmar kontaktcenter@helsingborg.se
+                    </p>
+                    <div class="contact-banner-link">
+                        <a class="contact-banner-link" href="page-not-found.html">Skicka Mejl ></a>
+                    </div>
+                </div>
+                <div class="contact-banner-item">
+                    <div class="contact-banner-item-header">
+                        <img src="img/visit.JPG" alt="Visit Logo">
+                        <h3 class="contact-banner-item-title">Besök</h3>
+                    </div>
+                    <p class="contact-banner-item-content">Besök oss på Helsingborg Kontaktcenter på Stortorget
+                        17</p>
+                    <div class="contact-banner-link">
+                        <a class="contact-banner-link" href="page-not-found.html">Visa Karta ></a>
+                    </div>
+                </div>
+                <div class="contact-banner-item">
+                    <div class="contact-banner-item-header">
+                        <img src="img/ring.JPG" alt="Ring Logo">
+                        <h3 class="contact-banner-item-title">Ring</h3>
+                    </div>
+                    <p class="contact-banner-item-content">Prata med en kommunvägledare på telefon 042-10 50 00</p>
+                    <div class="contact-banner-link">
+                        <a class="contact-banner-link" href="page-not-found.html">Ring ></a>
                     </div>
                 </div>
             </div>
-            <div class="sec3-redbox">
-                <h4>Så blir du god man</h4>
-                <div class="sec3-redbox-contain-link">
-                    <div class="align-arrow">
-                        <span class="arrow"><i class="far fa-arrow-alt-circle-right"></i></span>
-                        <a href="#" class="link-text">Är du intresserad av människor och ekonomi? Då kan du bli god man eller förvaltare.</a>
-                    </div>
-                </div>
-            </div>              
-            </div> 
-        </div>
-                   <!---- Kontakta kommunen / kontakt boxar etc--->   
+            <div class="contact-banner-extra">
+                <a class="contact-banner-info" href="page-not-found.html">Läs mer om Helsingborg kontaktcenter &gt;&gt;</a>
+            </div>
 
-
-                   <section class="kontaktakommunen">
-                    <div class="konta1">
-                        <div class="mainkomm">
-                            <h1 class="mainkommh1">Kontakta kommunen - En väg in</h1>
-                            <p class="mainkommp">När du kontaktar oss är det kommunvägledarna på helsingborg <br>
-                                kontaktcenter som tar hand om dina frågor.</p>
-                        </div>
-                        <div class="maintider"> 
-                            <div class="failline"></div>
-                            <h2><strong>Öppettider</strong></h2>
-                            <ul>
-                                <li>Måndag-torsdag 07:00-19:00</li>
-                                <li>Fredag 07:00-17:00</li>
-                                <li>Lördag 10:00-15:00</li>
-                            </ul>
-                            <p>Avvikande öppettider kan förekomma i samband med röda dagar, samt dag innan röd dag.</p>
-                        </div>
-                    </div>    
-        <div class="kontaktboxar">
-            <div class="chatta">
-                <h2 class="h2kontakt">Chatta</h2>
-                <p class="pkontakt">Få svar direkt – chatta med en <br>kommunvägledare</p>
-                <a class="akontakt" href="#">STARTA CHATT  ></a>
-            </div>
-            <div class="mejla">
-                <h2 class="h2kontakt">Mejla</h2>
-                <p class="pkontakt">Få svar inom 24 timmar <br>kontaktcenter@helsingborg.se</p>
-                <a class="akontakt" href="#">SKICKA MEJL  ></a>
-            </div>
-            <div class="besök">
-                <h2 class="h2kontakt">Besök</h2>
-                <p class="pkontakt">Besök oss på Helsingborg <br>Kontaktcenter på Stortorget 17</p>
-                <a class="akontakt" href="#">VISA KARTA  ></a>
-            </div>
-            <div class="ring">
-                <h2 class="h2kontakt">Ring</h2>
-                <p class="pkontakt">Prata med en<br> kommunvägledare på telefon<br> 042-10 50 00</p>
-                <a class="akontakt" href="#">RING  ></a>
-            </div>
-            <a class="läsmer" href="#">Läs mer om Helsingborg kontaktcenter >></a>
         </div>
-    </section>
-        <div class="chattbubmain">
-            <button class="chattbubb">
-                <div class="bubimg"></div>
-                <p>Chatta</p>
-            </button>
-        </div>   
             <!---- Footer --->   
             
             

@@ -64,7 +64,7 @@ a {
     height: auto;
 }
 .h1head {
-    flex: 4;
+    flex: 3;
     margin-top: 44px;
     font-weight: 550;
     font-size: 175%;
@@ -72,10 +72,9 @@ a {
 
 .links-UH {
     margin-top: 46px;
-    margin-right: 5.7%;
     font-weight: 500;
     font-size: 105%;
-    flex: 3.5;
+    flex: 1.65;
 }
 .links-UH a {
     text-decoration: none;
@@ -104,16 +103,35 @@ a {
     margin-right: -5px;
 }
 
-.headsearch  {
-    border: 5px solid;
-    height: 30px;
-    top: 40px;
-    position: absolute;
-    margin-right: 32px;
-    right: 110px;
-    width: 240px;
+.search{
+    flex: 1.6;
 }
 
+#form1 {
+    margin-top: 40px;
+}
+
+
+#search {
+border-radius: 3px 0 0 3px;
+border: 1px solid #e5e5e5;
+box-shadow: inset 0 0 5px rgba(0,0,0,.1);
+font-size: 14px;
+height: 30px;
+border: none;
+color: rgb(161, 161, 161);
+padding-left: 10px;
+}
+
+#search-btn {
+    font-size: 14px;
+    background-color:#ec6701;
+    border:none;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    margin-left: -1px;
+
+}
 /*---- sticky part "lower header" -----*/
 
 .lowerheader {
@@ -192,94 +210,6 @@ box-sizing: border-box;
 }
 /* section 3 redbox more or less exact match */
 
-.sec3-redbox {
-    background-color: #ae0b05;
-    color: white;
-    padding-bottom: 35px;
-    border-radius: 2px;
-    margin-bottom: 32px; /* standard */
-
-}
-
-.sec3-redbox h4 {
-    font-size: 19px;
-    padding: 32px 32px 19px 32px;
-    margin: 0;
-}
-
-.sec3-redbox-link {
-    margin-left: 12px;
-}
-
-.sec3-redbox-contain-link {
-    padding: 0px 32px 0px 32px;
-}
-
-.sec3-redbox a {
-    text-decoration: underline;
-    color: white;
-    line-height: 24px;
-}
-
-/* section 3 box w picture  more or less match */
-.sec3-colorboxWpic {
-    background-color: #cb0050;
-    border-radius: 2px;
-    margin-bottom: 32px;
-}
-
-.sec3-colorboxWpic h4 {
-    color: white;
-    font-size: 19px;
-    margin: 0;
-    padding: 32px 32px 0px 32px;
-}
-.sec3-colorboxWpic a {
-    text-decoration: underline;
-    color: white;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.sec3-colorboxWpic-contain-link {
-    padding: 16px 32px 32px 32px;
-}
-
-
-/* sec3-brighterred color box */
-
-.sec3-brightredbox {
-    background-color: #e3000f;
-    color: white;
-    padding-bottom: 35px;
-    border-radius: 2px;
-    margin-bottom: 32px; /* standard */
-
-}
-
-.sec3-brightredbox h4 {
-    font-size: 19px;
-    padding: 32px 32px 19px 32px;
-    margin: 0;
-}
-
-.sec3-brightredbox-contain-link {
-    padding: 0px 32px 0px 32px;
-}
-
-.sec3-brightredbox a {
-    text-decoration: underline;
-    color: white;
-    line-height: 24px;
-}
-
-.sec3-brightredbox-link {
-    margin-left: 12px;
-}
-
-
-/* current issue and to-do is to learn how to use font-awesome icons with ::before to propperly align
-icons easily. */
 
 /* bypassed this with the algin arrow classes with flex. important to have if its gonna work. */
 
@@ -313,124 +243,109 @@ icons easily. */
     max-width: 100%;
     color: #252525;
 }
+/*-------------------Contact Banner --------------------------------*/
 
-/*------Kontakta kommunen --------*/
-
-.kontaktakommunen {
+.c-contact-banner {
+    padding: 64px 0;
+    color: #fff;
     background-color: #cb0050;
     background: linear-gradient(100deg,#cb0050 0,#fa1a74 100%);
-    height: 695px;
-    padding-left: 320px;
-    padding-right: 320px;
-    position: relative;
 }
-.konta1 {
+
+.contact-container {
     display: flex;
-    margin-bottom: 40px;
-}
-.mainkomm {
-    color: white;
-    flex: 4;
-    margin-top: 45px;
-}
-.mainkommh1 {
-    font-size: 230%;
-}
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content:center;
 
-.mainkommp {
-    font-size: 130%;
 }
-.maintider {
-    flex: 2;
-    font-size: 130%;
-    color: white;
-    margin-top: 65px;
+.contact-item-2 {
+    padding-left: 24px;
+    border-left: 4px solid rgba(255,255,255,.8)
 }
-
-.maintider h2 {
-    padding-left: 37px;
-    font-size: 115%;
+.time-elements {
+    font-size: 16px;
+}
+.contact-info {
+   width: 100%;
+   height: 360px;
+   background-color: white;
 }
 
 
-.maintider p {
-    font-size: 80%;
-    padding-left: 37px;
-}
+/*-----------------------Contact Banner Item Container --------------------------*/
 
-.failline {
-    position: absolute;
-    top: 85px;
-    width: 10px;
-    height: 175px;
-    border-left: 5px solid rgb(231, 231, 231);
-}
-.kontaktboxar {
+.contact-banner-item-container {
+    width: 80%;
+    height: auto;
+    /*background-color: #fff;*/
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #fff 0, #f8f8f8 100%);
+    box-shadow: 0 0.5px 1.8px rgba(0, 0, 0, .015),
+        0 1px 3.7px rgba(0, 0, 0, .022), 
+        0 1.7px 5.8px rgba(0, 0, 0, .027), 
+        0 2.6px 8.3px rgba(0, 0, 0, .031), 
+        0 3.8px 11.3px rgba(0, 0, 0, .035), 
+        0 5.3px 15.2px rgba(0, 0, 0, .039), 
+        0 7.5px 20.5px rgba(0, 0, 0, .043), 
+        0 11px 28.8px rgba(0, 0, 0, .048), 
+        0 16.9px 44px rgba(0, 0, 0, .055), 
+        0 30px 80px rgba(0, 0, 0, .07);
+    border-radius: 3px;
+    overflow: hidden;
     display: flex;
-    height: 240px;
-    background-color:white;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 0.5%;
-    
+    flex-direction: row;
+    margin: auto;
+    margin-top: 50px;
 }
 
-.chatta {
-    position: relative;
-    flex: 1;
-    border-right: 1px solid rgb(212, 212, 212);
-    
+.contact-banner-item {
+    border-left: 1px solid #dbdbdb;
+    color: #000;
+    padding: 10px;
 }
 
-.mejla {
-    position: relative;
-    flex:1;
-    border-right: 1px solid rgb(212, 212, 212);
+.contact-banner-item-header {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+
 }
 
-.besök {
-    position: relative;
-    flex:1;
-    border-right: 1px solid rgb(212, 212, 212);
+.contact-banner-item-title {
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
-.ring {
-    position: relative;
-    flex:1;
-    border-right: 1px solid rgb(212, 212, 212);
-}
-
-.läsmer {
-    color: white;
-    font-size: 130%;
-    position: absolute;
-    top: 590px;
-    right: 320px;
-}
-
-
-.h2kontakt{
-    position: absolute;
-    top: 10px;
-    left: 80px;
-    font-weight: 400;
-    font-size: 190%;
-}
-
-.pkontakt{
-    position: absolute;
-    top: 70px;
-    left: 30px;
-    font-size: 120%;
-}
-
-.akontakt {
-    position: absolute;
-    bottom: 20px;
-    right: 30px;
-    font-size: 115%;
+.contact-banner-link {
+    margin: 20px 0px;
+    text-decoration: none;
     color: #ae0b05;
-    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: font-size 0.5s;
+}
 
+.contact-banner-extra {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.contact-banner-extra a {
+    text-decoration: none;
+    color: #fff;
+    transition: font-size 0.5s;
+    font-weight: bold;
+    }
+
+.contact-banner-link a:hover, .contact-banner-extra a:hover {
+    font-size: 1.1em;
 }
 /*----- Footer ----*/
 
