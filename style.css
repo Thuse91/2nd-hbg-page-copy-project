@@ -197,7 +197,6 @@ box-sizing: border-box;
     color: white;
     padding-bottom: 35px;
     border-radius: 2px;
-    margin-top: 80px; /* temp */
     margin-bottom: 32px; /* standard */
 
 }
@@ -208,22 +207,25 @@ box-sizing: border-box;
     margin: 0;
 }
 
+.sec3-redbox-link {
+    margin-left: 12px;
+}
+
 .sec3-redbox-contain-link {
     padding: 0px 32px 0px 32px;
 }
+
 .sec3-redbox a {
     text-decoration: underline;
     color: white;
-}
-
-.sec3-redbox-link {
-    margin-left: 12px;
+    line-height: 24px;
 }
 
 /* section 3 box w picture  more or less match */
 .sec3-colorboxWpic {
     background-color: #cb0050;
     border-radius: 2px;
+    margin-bottom: 32px;
 }
 
 .sec3-colorboxWpic h4 {
@@ -251,7 +253,6 @@ box-sizing: border-box;
     color: white;
     padding-bottom: 35px;
     border-radius: 2px;
-    margin-top: 80px; /* temp */
     margin-bottom: 32px; /* standard */
 
 }
@@ -269,6 +270,7 @@ box-sizing: border-box;
 .sec3-brightredbox a {
     text-decoration: underline;
     color: white;
+    line-height: 24px;
 }
 
 .sec3-brightredbox-link {
@@ -278,3 +280,304 @@ box-sizing: border-box;
 
 /* current issue and to-do is to learn how to use font-awesome icons with ::before to propperly align
 icons easily. */
+
+/* bypassed this with the algin arrow classes with flex. important to have if its gonna work. */
+
+/* arrow alignment */
+
+.align-arrow {
+    display: flex;
+}
+.arrow{
+    flex:1;
+    padding-top: 3px;
+}
+.link-text{
+    flex:7;
+}
+
+
+
+
+/* light blue box template */
+
+.info-notice {
+    margin-bottom: 32px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    background-color: #b1f5ff;
+    padding: 8px 16px;
+}
+
+.info-notice a {
+    text-decoration: underline;
+    max-width: 100%;
+    color: #252525;
+}
+
+/*------Kontakta kommunen --------*/
+
+.kontaktakommunen {
+    background-color: #cb0050;
+    background: linear-gradient(100deg,#cb0050 0,#fa1a74 100%);
+    height: 695px;
+    padding-left: 320px;
+    padding-right: 320px;
+    position: relative;
+}
+.konta1 {
+    display: flex;
+    margin-bottom: 40px;
+}
+.mainkomm {
+    color: white;
+    flex: 4;
+    margin-top: 45px;
+}
+.mainkommh1 {
+    font-size: 230%;
+}
+
+.mainkommp {
+    font-size: 130%;
+}
+.maintider {
+    flex: 2;
+    font-size: 130%;
+    color: white;
+    margin-top: 65px;
+}
+
+.maintider h2 {
+    padding-left: 37px;
+    font-size: 115%;
+}
+
+
+.maintider p {
+    font-size: 80%;
+    padding-left: 37px;
+}
+
+.failline {
+    position: absolute;
+    top: 85px;
+    width: 10px;
+    height: 175px;
+    border-left: 5px solid rgb(231, 231, 231);
+}
+.kontaktboxar {
+    display: flex;
+    height: 240px;
+    background-color:white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5%;
+    
+}
+
+.chatta {
+    position: relative;
+    flex: 1;
+    border-right: 1px solid rgb(212, 212, 212);
+    
+}
+
+.mejla {
+    position: relative;
+    flex:1;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+.besök {
+    position: relative;
+    flex:1;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+.ring {
+    position: relative;
+    flex:1;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+.läsmer {
+    color: white;
+    font-size: 130%;
+    position: absolute;
+    top: 590px;
+    right: 320px;
+}
+
+
+.h2kontakt{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-weight: 400;
+    font-size: 190%;
+}
+
+.pkontakt{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 120%;
+}
+
+.akontakt {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 115%;
+    color: #ae0b05;
+    font-weight: 600;
+
+}
+/*----- Footer ----*/
+
+footer {
+    position: relative;
+}
+
+#hbglogofooter {
+    position: absolute;
+    top:65px;
+    left:375px;
+    font-size: 140%;
+}
+.footersections {
+    display: flex;
+    margin-left: 280px;
+    height: 205px;
+    position: relative;
+}
+
+.hbglogo2 {
+    margin-left: 16%;
+    margin-top: 65px;
+    width: 70px;
+}
+.hbglogo2 img {
+    width: 100%;
+    height: auto;
+}
+
+.listfooter {
+    flex:0.6;
+    margin-top: 40px;
+}
+.omwebb {
+    flex:0.6;
+    margin-top: 40px;
+}
+.omwebb li {
+    padding-bottom: 15px;
+}
+.omwebb a {
+    text-decoration: underline;
+}
+.larm {
+    flex:0.6;
+    margin-top: 40px;
+    margin-right: 327px;
+}
+
+.larm li {
+    background-color: rgb(226, 226, 226);
+    margin-bottom: 3px;
+    padding: 7px 7px;
+}
+
+
+#form2 {
+    position: absolute;
+    top: 300px;
+    right: 325px;
+}
+
+.kod {
+    width: 375px;
+    height: 30px;
+    border: 3px solid rgba(236, 236, 236, 0.726);
+    padding-left: 10px;
+    color: rgb(197, 197, 197);
+}
+
+.kod-btn {
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 0px 25px;
+    color: white;
+    background-color:#ec6701;
+    overflow: hidden;
+    border:none;
+    /*----outline: none; borde finnas på hemsidan----*/
+}
+
+
+.social li a {
+    color: #424242;
+    transition: color 150ms;
+}
+
+.social li a:hover {
+    color: black;
+}
+
+.social{
+    margin-top: 80px;
+    margin-left: 43.25%;
+    margin-right: 40%;
+    width: 16.75%;
+    margin-bottom: 60px;
+}
+#socialul {
+    display: flex;
+    font-size: 40px;
+
+}
+
+#social1,
+#social2,
+#social3 {
+    margin-right: 10px;
+}
+
+/*--- chattbubbla ---*/
+
+.chattbubb {
+
+    width: 120px;
+    height: 50px;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #ec6701;;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.bubimg {
+    background-image: url('https://content.psplugin.com/images/8733B8BB-49D3-4187-B9D4-719BCC78C769/ico_chat.svg');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+
+.chattbubb p{
+    font-size: 140%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: 17px;
+    font-weight: 600;
+}
+
+
+
+
+
